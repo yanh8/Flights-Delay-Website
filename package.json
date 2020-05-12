@@ -1,0 +1,22 @@
+{
+  "name": "a5-null",
+  "version": "4.10.0",
+  "description": "### PROJECT INFORMATION",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/INF554/a5-null.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/INF554/a5-null/issues"
+  },
+  "homepage": "https://github.com/INF554/a5-null#readme",
+  "dependencies": {
+    "d3": "^5.14.2"
+  }
+}
