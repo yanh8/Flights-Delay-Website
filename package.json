@@ -1,22 +1,30 @@
 {
-  "name": "a5-null",
-  "version": "4.10.0",
-  "description": "### PROJECT INFORMATION",
-  "main": "index.js",
+  "name": "travelwebsite",
+  "version": "0.1.0",
+  "private": true,
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "serve": "vue-cli-service serve",
+    "build": "vue-cli-service build",
+    "lint": "vue-cli-service lint"
   },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/INF554/a5-null.git"
-  },
-  "author": "",
-  "license": "ISC",
-  "bugs": {
-    "url": "https://github.com/INF554/a5-null/issues"
-  },
-  "homepage": "https://github.com/INF554/a5-null#readme",
   "dependencies": {
-    "d3": "^5.14.2"
+    "d3": "^5.14.2",
+    "d3v4": "^4.2.2",
+    "serve": "^11.2.0",
+    "topojson": "^3.0.2",
+    "vue": "^2.6.10",
+    "vue-material": "^1.0.0-beta-11",
+    "vue-router": "^3.1.3"
+  },
+  "devDependencies": {
+    "@vue/cli-plugin-babel": "^4.0.0",
+    "@vue/cli-plugin-eslint": "^4.0.0",
+    "@vue/cli-plugin-router": "^4.0.0",
+    "@vue/cli-service": "^4.0.0",
+    "babel-eslint": "^10.0.3",
+    "eslint": "^5.16.0",
+    "eslint-plugin-vue": "^5.0.0",
+    "vue-plugin-load-script": "^1.2.0",
+    "vue-template-compiler": "^2.6.10"
   }
 }
